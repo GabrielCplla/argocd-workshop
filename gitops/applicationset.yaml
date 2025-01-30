@@ -9,12 +9,12 @@ spec:
         elements:
           - name: in-cluster
             nameNormalized: fastapi-app
-            repoURL: https://github.com/FaisalAl-Rayes/argocd-workshop.git
+            repoURL: https://github.com/GabrielCplla/argocd-workshop.git
             path: gitops/components/fastapi-webapp/overlays/prod
             namespace: prod-fastapi
           - name: in-cluster
             nameNormalized: go-app
-            repoURL: https://github.com/FaisalAl-Rayes/argocd-workshop.git
+            repoURL: https://github.com/GabrielCplla/argocd-workshop.git
             path: gitops/components/go-webapp/overlays/prod
             namespace: prod-go
   template:

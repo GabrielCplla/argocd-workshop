@@ -13,13 +13,13 @@ spec:
               elements:
                 - name: dev-cluster
                   nameNormalized: fastapi-app
-                  repoURL: https://github.com/FaisalAl-Rayes/argocd-workshop.git
+                  repoURL: https://github.com/GabrielCplla/argocd-workshop.git
                   path: gitops/components/fastapi-webapp/overlays/dev
                   namespace: dev-fastapi
                   environment: dev
                 - name: dev-cluster
                   nameNormalized: go-app
-                  repoURL: https://github.com/FaisalAl-Rayes/argocd-workshop.git
+                  repoURL: https://github.com/GabrielCplla/argocd-workshop.git
                   path: gitops/components/go-webapp/overlays/dev
                   namespace: dev-go
                   environment: dev
